@@ -1,4 +1,4 @@
-Algoritmo "Exerc�cio 2"
+Algoritmo "Exercício 2"
 
 Var
    b,c,valorHip: real
@@ -12,5 +12,5 @@ Inicio
        valorHip <-0
        valorHip <- raizq(exp(b,2) + exp(c,2))
        
-       escreva(valorHip)
+       escreva("O valor da Hipotenusa é:",valorHip)
 Fimalgoritmo
