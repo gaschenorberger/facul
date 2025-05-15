@@ -7,11 +7,11 @@ Var
 Inicio
       escreval("Qual foi o valor total da compra?")
       leia(vlTotal)
-      
+
       escreval("(Digite apenas o numero) Qual sera a opcao de pagamento?")
       escreval("1- A vista | 2- 30 dias direto | 3- 60 dias direto | 4- 90 dias direto")
       leia(opcPag)
-      
+
       se (opcPag = 1) entao
          vlFinal <- vlTotal * 0.9
          escreval("O preco final sera: ",vlFinal)
